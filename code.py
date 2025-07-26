@@ -9,7 +9,7 @@ choice = input("Enter 1 or 2 to choose conversion: ")
 if choice == "1":
     celsius = float(input("Enter temperature in Celsius: "))
     fahrenheit = (celsius * 9/5) + 32
-    print(celsius, "Celsius is", round(fahrenheit, 2), "Fahrenheit.")
+    print(celsius,  "Celsius is", round(fahrenheit, 2), "Fahrenheit.")
 
 elif choice == "2":
     fahrenheit = float(input("Enter temperature in Fahrenheit: "))
